@@ -12,14 +12,17 @@
   </head>
   <body>
     <div class="mb10">
+      <!-- enable video button -->
       <button onclick="toggleVideo()" id="trackbutton" class="bx--btn bx--btn--secondary" type="button">
         Toggle Video
       </button>
       <div id="updatenote" class="updatenote mt10"> loading model ..</div>
     </div>
+    <!-- video frame -->
     <video class="videobox canvasbox" autoplay="autoplay" id="myvideo"></video>
   
+    <!-- p5 canvas -->
     <canvas id="canvas" class="border canvasbox"></canvas>
-      <script src="sketch.js"></script>
+    <script src="sketch.js"></script>
   </body>
 </html>
